@@ -1,8 +1,15 @@
 Distributed Analysis of Spotify Artist Networks
+
+
 📌 Project Overview
+
+
 This project implements a distributed big data pipeline to analyze the social structure of the Spotify Artist Collaboration Network. Using PySpark for scalable data ingestion and NetworkX for graph topology analysis, the project processes a dataset of 156,422 nodes and 300,386 edges  to determine how an artist's position in the network influences their popularity.
 
 The pipeline culminates in machine learning workflows (Linear Regression and K-Means Clustering) to predict artist success and segment the network into community structures.
+
+
+
 
 🛠 Technology Stack
 Distributed Computing: PySpark (Spark SQL, MLlib)
